@@ -5,7 +5,7 @@ resource "azurerm_resource_group" "example" {
 
 resource "azurerm_container_registry" "acr" {
   name                     = "devtestenv"
-  resource_group_name      = "example"
+  resource_group_name      = "cr"
   location                 = "East US"
   sku                      = "Standard"
   admin_enabled            = false
