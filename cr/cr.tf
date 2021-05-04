@@ -1,3 +1,8 @@
+resource "azurerm_resource_group" "example" {
+  name     = "example"
+  location = "East US"
+}
+
 resource "azurerm_container_registry" "acr" {
   name                     = "devtestenv"
   resource_group_name      = "example"
