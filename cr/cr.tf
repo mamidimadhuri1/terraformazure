@@ -9,7 +9,7 @@ terraform {
 
 resource "azurerm_container_registry" "acr" {
   name                     = "devtestenv"
-  resource_group_name      = "temp"
+  resource_group_name      = "cloud-shell-storage-centralindia"
   location                 = "Japan East"
   sku                      = "Standard"
   admin_enabled            = false
