@@ -11,6 +11,6 @@ resource "azurerm_container_registry" "acr" {
   name                     = "devtestenv"
   resource_group_name      = "temp"
   location                 = "Japan East"
-  sku                      = "Standard"
+  sku                      = "Basic"
   admin_enabled            = false
 }
